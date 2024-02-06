@@ -1,0 +1,41 @@
+#Tituloprincipal{
+    color: blueviolet;
+    font-family: fantasy;
+}
+.parrafoSecundario {
+    color:darkblue;
+    font-size: 28px;
+}
+
+p{
+    background-color: antiquewhite;
+}
+
+a:link {
+    color:aquamarine;
+    
+    }
+a:visited {
+    color:coral;
+    
+    }
+a:hover {
+    transition: 1s;
+    border-radius: 30px;
+    background-color: brown;
+    color:forestgreen
+    
+    }
+    a:actived {
+        background-color: darkmagenta;
+    color:dodgerblue;
+    
+    }
+    
+    p:nth-child(even){
+        background-color: peachpuff;
+        }
+    p:nth-child(odd){
+        background-color:orange
+        }
+        
